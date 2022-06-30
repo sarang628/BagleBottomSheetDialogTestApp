@@ -1,0 +1,8 @@
+rootProject.name = "BagleBottomSheetDialogTestApp"
+include ':app'
+
+include ':torang_core'
+project(':torang_core').projectDir = new File('../../TorangCore/torang_core')
+include ':bagleBottomSheetDialog'
+project(':bagleBottomSheetDialog').projectDir = new File("../../BagleBottomSheetDialog2/bagle_bottom_sheet_dialog")
+
